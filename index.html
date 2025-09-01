@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- icons linkss -->
+    <script
+      src="https://kit.fontawesome.com/4e7ae1d1f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- daisy ui link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css links -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="lg:px-32 md:px-12">
+      <!--------------------
+                        ----------- header section or  nav bar start --------------
+                                                                            ------------->
+      <header>
+        <div class="navbar bg-base-100 shadow-sm">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">S-ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-xl text-[#030712] font-medium">
+                <a>Home</a>
+              </li>
+              <li class="text-xl text-[#030712] font-medium">
+                <a>About</a>
+              </li>
+              <li class="text-xl text-[#030712] font-medium">
+                <a>Destination</a>
+              </li>
+              <li class="text-xl text-[#030712] font-medium">
+                <a>Search</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn text-[#1DD100] bg-[#1DD100] bg-opacity-10 border-[#1DD100] border-opacity-40 px-8 text-xl"
+              >Bus <img class="" src="images/bus-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </header>
+      <!------------- header section or  nav bar ends -------------------->
+
+      <!----------------------
+                             ----------- main sections starts ------------
+                                                                  ------------------>
+
+      <main>
+        <!--------------------
+                          -------------------- hero section starts --------------
+                                                                            -------------------->
+
+        <!-------------- part 1  starts--------->
+        <div
+          class="hero min-h-[80vh] mt-10"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-overlay"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-lg">
+              <h1 class="mb-5 lg:text-4xl md:text-3xl font-bold">
+                End-to-End Travel with <br /><span class="text-[#1DD100]"
+                  >S Paribahan</span
+                >
+              </h1>
+
+              <p class="mb-5 text-white">
+                Yes, you can run unit tests and view the results directly within
+                the app. The integrated testing features allow for a streamlined
+                .
+              </p>
+              <button
+                class="btn lg:px-10 md:px-6 lg:text-xl bg-[#1DD100] text-white"
+              >
+                Buy Tickets
+              </button>
+            </div>
+          </div>
+        </div>
+        <!------------ part 2 starts----------->
+        <div class="flex justify-center items-center gap-6 mb-10 border">
+          <div
+            class="div-1 flex items-center gap-4 border-green-600 border-b-[4px] justify-center p-8 bg-white lg:rounded-xl md:rounded-lg"
+          >
+            <div>
+              <img src="images/people.png" alt="" />
+            </div>
+            <div>
+              <h1 class="lg:text-4xl md:text-3xl text-black font-semibold">
+                500K+
+              </h1>
+              <p class="lg:text-[18px] text-[#030712] opacity-60">
+                Registered users
+              </p>
+            </div>
+          </div>
+          <div
+            class="div-1 flex items-center gap-4 border-green-600 border-b-[4px] justify-center p-8 bg-white lg:rounded-xl md:rounded-lg"
+          >
+            <div>
+              <img src="images/ticket-cupon.png" alt="" />
+            </div>
+            <div>
+              <h1 class="lg:text-4xl md:text-3xl text-black font-semibold">
+                1.7 Lacks
+              </h1>
+              <p class="lg:text-[18px] text-[#030712] opacity-60">
+                Tickets sold
+              </p>
+            </div>
+          </div>
+          <div
+            class="div-1 flex items-center gap-4 border-green-600 border-b-[4px] justify-center p-8 bg-white lg:rounded-xl md:rounded-lg"
+          >
+            <div>
+              <img src="images/stoppage.png" alt="" />
+            </div>
+            <div>
+              <h1 class="lg:text-4xl md:text-3xl text-black font-semibold">
+                80K+
+              </h1>
+              <p class="lg:text-[18px] text-[#030712] opacity-60">
+                Rental partners
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-------------------------------- hero section ends ------------------------------>
+      </main>
+      <!-------------------------------- main section ends -------------------------------------->
+    </section>
+
+    <!--------- script tags starts----------->
+    <div>
+      <script src="scripts/buy-ticket.js"></script>
+      <script src="scripts/coupon.js"></script>
+      <script src="scripts/price.js"></script>
+      <script src="scripts/seat-booking.js"></script>
+    </div>
+    <!--------- script tags ends----------->
+  </body>
+</html>
